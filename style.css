@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #82c0b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 10px;
+    width: 25vw;
+    height: 60vh;
+    background-color: #F7F4F3;
+    border-radius: 10px;
+}
+
+h1{
+    color: #49b0b7;
+    text-align: center;
+}
+
+.amount{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.amount p{
+    font-weight: bold;
+}
+
+.amount input{
+    color: rgb(177, 177, 177);
+    border: 1.5px solid lightgray;
+    padding: 1px;
+    border-radius: 4px;
+    width: 150px;
+    padding: 7px;
+}
+
+.dropdown{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.dropdown img{
+    max-width: 30px;
+}
+
+.from,.to{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    gap: 5px;
+}
+
+.from p{
+    font-size: 20px;
+}
+
+.to p{
+    font-size: 20px;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+}
+
+.select select{
+    border: none;
+    font-size: 1rem;
+    width: auto;
+}
+
+i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.msg{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center ;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color:#49b0b7;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
